@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+/*===================== TOP =====================*/
+.container .top {
+    width: 100%;
+    border: 1px solid red;
+    position: relative;
+}
+.container .top .top-left{
+    width: 85%;
+    float: left;
+}
+.container .top .top-left p{
+    background-color: red;
+    text-align: right;
+    color: white;
+    padding: 10px 0px;
+    font-weight: bold;
+    border-bottom: 1px solid red;
+}
+.container .top .top-left h1{
+    color: red;
+    background-color: #FFBBBB;
+    text-align: center;
+    border-right: 1px solid red;
+    border-top: 1px solid red;
+    padding: 15px;
+}
+.container .top .top-left h1 span{
+    text-transform: uppercase;
+}
+.container .top .top-left .line-white {
+    padding: 5px;
+    border-right: 1px solid red;
+}
+
+/*========== top-right ==========*/
+.container .top .top-right {
+    text-align: center;
+    
+}
+.container .top .top-right img {
+    width: 115px;
+    height: 117px;
+    position: absolute;
+    bottom: 0px;
+    right: 3px;
+}
+
+/*===================== BOTTOM =====================*/
+.container .bottom {
+    width: 100%;
+    border-bottom: 1px solid red;
+    border-right: 1px solid red;
+    border-left: 1px solid red;
+}
+.container .bottom .bottom-left {
+    width: 50%;
+    float: left;
+    padding-left: 10px;
+    border-right: 1px solid red;
+}
+
+h3 {
+    color: red;
+}
+
+ul{
+    list-style: inside;
+}
+.bottom .bottom-right {
+    width: 50%;
+    float: left;
+    padding-left: 5px;
+}
+
+
+.container .bottom .bottom-right ul {
+    list-style-type: decimal;
+}
+
+.container .bottom .bottom-right ul li {
+    padding-bottom: 10px;
+}
+.container .bottom .bottom-right ul li i {
+    font-weight: bold;
+}
+
+.content {
+    padding: 20px 5px;
+}
+/*======================== CLEAR FLOAT========================*/
+.clr{
+    clear: both;
+}
