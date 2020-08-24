@@ -1,0 +1,85 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 700px;
+    border: 1px solid gray;
+    box-shadow: 5px 2px 5px 0px #000;
+    margin: 20px auto;
+    padding: 5px;
+}
+
+.box .images {
+    width: 20%;
+    background-color: blue;
+    display: inline-block;
+    position: relative;
+}
+
+.box .images img {
+    width: 100px;
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, 50%);
+}
+
+.box .content {
+    
+    width: 80%;
+    float: right;
+}
+
+.box .content h1 {
+    text-align: center;
+    color: palevioletred;
+    padding-bottom: 20px;
+}
+
+.box .content .introduce {
+   
+}
+
+.box .content .introduce span, .box .content .contact span  {
+   background-color: palevioletred;
+   padding-right: 20px;
+   color: white;
+}
+
+.box .content .introduce ul li, .box .content .contact ul li {
+   list-style: inside;
+   padding-left: 20px;
+}
+
+.box .content .contact ul li i {
+    padding-left: 20px;
+}
+.box .content .copyright {
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: pink;
+    padding-left: 10px;
+}
+.box .content .copyright span {
+    color: purple;
+    font-weight: bold;
+}
+
+.box .content .copyright a {
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.clr {
+    clear: both;
+}
+
+.line-w {
+    width: calc(600 - 20%);
+    border: 1px solid rgb(190, 188, 188);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
