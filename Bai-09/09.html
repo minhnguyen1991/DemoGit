@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin-left: auto;
+            margin-right: auto;
+            box-shadow: 1px 1px 5px 0 #000;
+            width: 600px;
+        }
+        table{
+            width: 600px;
+        }
+        table td {
+            border-collapse: collapse;
+            border: 1px solid red;
+        }
+        table td:last-child:not(:first-child),
+        table td:nth-last-child(2),
+        table td[rowspan]:first-child {
+            text-align: center;
+        }
+        h1{
+            text-align: center;
+            color: red;
+        }
+        table .title {
+            background-color: red;
+            color: white;
+        }
+
+        table td[rowspan] {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Chương trình học - Ngành Lập trình</h1>
+    <table>
+        <tr class="title">
+            <td rowspan="2">Nhóm học phần</td>
+            <td rowspan="2">Môn học</td>
+            <td colspan="2">Số tiết</td>
+             <!-- <td>demo</td> -->
+        </tr>
+        <tr class="title">
+            <!-- <td>demo</td> -->
+            <!-- <td>demo</td> -->
+            <td>Lý thuyết</td>
+            <td>Thực hành</td>
+        </tr>
+        <tr>
+            <td rowspan="6">Tin học văn phòng</td>
+            <td>Hệ điều hành Windows</td>
+            <td>3</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <!-- <td>demo</td> -->
+            <td>Sử dụng Internet</td>
+            <td>3</td>
+            <td>5</td>
+        </tr>
+        <tr>
+            <!-- <td>demo</td> -->
+            <td>Soạn thảo văn bản với MS Word</td>
+            <td>24</td>
+            <td>40</td>
+        </tr>
+        <tr>
+            <!-- <td>demo</td> -->
+            <td>Tạo bài trình diễn với MS PowerPoint</td>
+            <td>9</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <!-- <td>demo</td> -->
+            <td>Xử lý số liệu với MS Excel</td>
+            <td>24</td>
+            <td>40</td>
+        </tr>
+        <tr>
+            <!-- <td>demo</td> -->
+            <td>Tạo trang Web với MS FrontPage</td>
+            <td>9</td>
+            <td>15</td>
+        </tr>
+        <tr>
+            <td rowspan="2">Kĩ thuật lập trình</td>
+            <td>Nhập môn lập trình</td>
+            <td>36</td>
+            <td>60</td>
+        </tr>
+        <tr>
+            <!-- <td>demo</td> -->
+            <td>Kỹ thuật lập trình</td>
+            <td>36</td>
+            <td>60</td>
+        </tr>
+        <tr>
+            <td colspan="4">...</td>
+            <!-- <td>demo</td> -->
+            <!-- <td>demo</td> -->
+            <!-- <td>demo</td> -->
+        </tr>
+    </table>
+</body>
+</html>
