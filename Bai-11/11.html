@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bài tập 11</title>
+  </head>
+  <body>
+    <style type="text/css">
+    .form {
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 1px 1px 5px 0 #000;
+        width: 300px;
+    }
+    .form h1 {
+        text-align: center;
+        color: brown;
+        padding-top: 10px;
+    }
+    table {
+        margin-left: auto;
+        margin-right: auto;
+        background-color:darkcyan;
+    }
+    table td {
+          border-collapse:collapse;
+          border: 1px solid red;
+          padding: 5px;
+      }
+    table td[colspan]{
+        text-align: center;
+    }
+    </style>
+    <div class="form">
+        <form>
+            <table>
+                <h1>Đăng nhập</h1>
+                <tr>
+                    <td>Mã người dùng</td>
+                    <td>
+                        <input type="text" id="maND" name="maND">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Mật khẩu</td>
+                    <td>
+                        <input type="password" id="pass" name="pass">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" value="Đồng ý">
+                    </td>
+                    <!-- <td>Demo2</td> -->
+                </tr>
+            </table>
+        </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    width: 800px;
+    margin: 0px auto;
+}
+a, span {
+    display: inline-block;
+}
+.header{
+    background-color: #8f8f8f;
+    padding: 10px 5px;
+}
+.menu{
+     background-color:#2036f7;
+     padding-left: 50px;
+}
+.menu nav a {
+    color: white;
+    padding: 10px 5px;
+}
+.column1 {
+    width: 30%;
+    float: left;
+}
+.column1 .items{
+    list-style: inside;
+    padding-left: 20px;
+    padding-bottom: 50px;
+}
+.column1 .items1{
+    background-color: #fefb3b;
+}
+.column1 .items2{
+    background-color: #8f8f8f;
+}
+
+.column2{
+    width: 70%;
+    float: left;
+    text-align: justify;
+}
+.column2 .items{
+    padding-left: 5px;
+}
+.column2 .items p{
+    padding-bottom: 20px;
+}
+.column2 .items1{
+    padding-top: 20px;
+}
+.column2 .items2{
+    margin-left: -5px;
+    margin-right: 0px;
+}
+.column2 .items2 .left{
+    background-color: #4e8b20;
+    float: left;
+    width: calc(100% / 2);
+}
+.column2 .items2 .right{
+    background-color: #dc2b06;
+    float: left;
+    width: calc(100% / 2);
+}
+.column2 .items2 p{
+    padding: 20px 5px;
+}
+.clr{
+    clear: both;
+}
+.footer{
+    background-color:#2036f7;
+    text-align:  center;
+    padding: 10px 0px;
+}
