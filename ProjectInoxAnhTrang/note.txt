@@ -1,0 +1,13 @@
+Tabs -> Nhìn tổng thể file PTS
+Ctrl + H -> Ẩn hiện line màu xanh
+
+Top-header.
+- Không cố định height 
+- Đối với ô input có thế cố dịnh chiều cao.
+- Bản chất icon là một kí tự -> dùng font size chỉnh to nhỏ.
+ - Kết hợp nhiều selector (+) -> CSS combinators
+ - Thay đổi màu của placeholder -> 
+ -Line height = 1; tưc là bằng chiều cao của chũ, <=> 100%.
+ -
+
+ 
