@@ -198,6 +198,10 @@ main {
     font-size: 16px;
     position: relative;
 }
+.right-item_title span {
+    text-shadow: 2px 0px 1px #0000005c;
+    color: #fff;
+}
 .right-item_title .icons {
     position: absolute;
     top: 0;
