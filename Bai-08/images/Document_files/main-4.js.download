@@ -1,0 +1,66 @@
+function handleClick() {
+    console.log("click me");
+}
+
+//Truy cap vao thuoc tinh can thay doi
+var colorSkinId = document.getElementById("colorSkinId");
+var containerClass = document.querySelector(".container");
+/* var body = document.querySelector("body"); */
+var body = document.getElementsByTagName("body")[0];
+
+function changStyleColor(href) {
+    colorSkinId.setAttribute("href", href);
+}
+
+function changerContainer(type) {
+    var newClass = "container " + type;
+    containerClass.setAttribute("class", newClass);
+}
+
+/* style="background-image: url(images/hinh1.jpg);" */
+function changeBg(fileName) {
+    console.log(fileName);
+    if(fileName) {
+        //Thay doi images body
+        var valueStyle = "background-image: url('" + fileName + "')";
+        console.log("body", fileName, valueStyle);
+        body.setAttribute("style", valueStyle);
+    } else {
+        //Reset tro lai trang thai ban dau
+        body.setAttribute("style", '');
+    }
+}
+
+var image = document.querySelector(".class-demo");
+    image.setAttribute("src", 'images/pexels-photo-1591447.jpeg');
+
+function addClass(el, className) {
+    /* console.log(el, className); */
+    var oldClass = el.getAttribute('class');
+    console.log('class', oldClass);
+    if(oldClass) {
+        if(oldClass.indexOf(className) === -1 ) {
+            var newClass = oldClass + " " + className;
+            el.setAttribute('class', newClass);
+        }
+    } else {
+        el.setAttribute('class', className);
+    }
+}
+
+// removeClass
+function removeClass(el, className) {
+
+}
+
+addClass(body, 'wrapper-content');
+addClass(image, 'image');
+addClass(image, 'demo-abc');
+addClass(image, 'image');
+addClass(image, 'demo-abc');
+
+/*
+    Chuyển đổi từ một chuỗi -> thành mảng
+        oldClass.split(" ");
+    Chuyển đổi từ một mảng -> thành chuỗi
+ */
